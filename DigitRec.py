@@ -22,8 +22,8 @@ X_train, Y_train = X_train[shuffle_indices], Y_train[shuffle_indices]
 
 
 
-nn = SupervisedLearning.NeuralNetwork(784, 2, 10, 10, 0.01)
+nn = SupervisedLearning.NeuralNetwork(784, 1, 16, 10, 0.01)
 
 
 # Train the network
-nn.train(X_train, Y_train, epochs=1000)
+nn.train(X_train, Y_train, epochs=100)
