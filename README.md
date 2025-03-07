@@ -54,5 +54,6 @@ Trains the neural network over a specified number of epochs.
 - Saves model weights if `save_model=True`.
 
 ### Usage Example:
-In 
+In digitRec.py
+there is an example of training the model to recognize handwritten digits from 0-9, after only 100 epochs the model manages to get to 85% accuracy which is pretty good
 
